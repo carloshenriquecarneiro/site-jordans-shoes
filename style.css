@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+
+/*Variáveis*/
+
+:root {
+    --bgSite: #f6f6f6;
+    --bgCard: #ebe9ea;
+    
+    --white: #fff;
+  
+    --title: #181818;
+    --text: #474747;
+  }
+  
+
+  /*Reset*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+
+  }
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    background-color: var(--bgSite);
+  }
+  body {
+    font-size: 1.6rem;
+    height: 159vw
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  button,
+  input {
+    border: 0;
+  }
+  button:focus,
+  input:focus {
+    border: 0;
+  }
+
+
+  /* minha aréa  */
+
+
+.frete-desconto {
+    background-color: var(--title);
+    color: var(--white);
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+
+
+.frete-desconto span {
+    position: relative;
+    top:10px;
+    font-size: 12px;
+}
+
+
+.parallax {
+    background-image: url(img/wallpaper.jpeg);
+    min-height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 378px;
+    filter: brightness(50%);
+    margin-bottom: 68px;
+}
+
+
+
+
+
+.rick-h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.div-titulo-entrada {
+    color: white;
+    position: relative;
+    bottom: 300px;
+    left: 70px;
+}
+
+.div-titulo-entrada h2 {
+    padding-bottom: 20px;
+    font-size: 29px;
+}
+
+.div-titulo-entrada p {
+    line-height: 33px;
+}
+
+.destaques-h2 {
+    text-align: center;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: var(--bgCard);
+  border-radius: 7px;
+  width: 370px;
+  color: rgb(238, 238, 238);
+  margin:38px;
+  padding: 20px;
+  height: 320px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card img {
+  margin-left: 67px;
+}
+
+
+.title {
+  color: var(--title);
+  font-weight: 500;
+}
+
+
+.valor {
+  color: var(--title);
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 100px;
+
+}
+
+
+.lorem-sobre {
+  color: var(--text);
+  padding: 12px;
+}
+
+
+.sizes {
+  color: var(--text);
+  position: relative;
+  top: 30px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+.footer {
+  position: relative;
+  top: 400px;
+  text-align: center;
+  background-color: var(--title);
+  height:40px;
+  width: 100%;
+}
+
+.footer span {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  top:12px;
+}
+
+/* Ofertas */
+.div-ofertas {
+  width: 50%;
+  height: 300px;
+  color:var(--title);
+  text-align: center;
+}
+
+.div-ofertas {
+  margin-top: 100px;
+  position: relative;
+  left: 320px;
+}
+
+.div-ofertas img {
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+
+input[type="text"]{
+  padding: 10px;
+  width: 100%;
+  margin-top:36px;
+  outline: none;
+  border-radius: 3px;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #474747;
+}
+
+input[type="text"]::placeholder {
+  text-align: center;
+
+}
+
+/* Fim */
+
+/*TABLETS*/
+
+
+@media screen and (max-width:768px) {
+    .flex {
+      position: relative;
+      left:145px;
+    }
+
+    .ofertas {
+      position: relative;
+      right: 140px;
+    }
+
+    .div-ofertas img {
+      position: relative;
+      right: 140px;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+}
+
+/* fim tablets */
+
+
+/* Celulares*/
+
+@media screen and (max-width:425px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .div-titulo-entrada h2 {
+    color: var(--white);
+    position: relative;
+    right: 23px;
+  }
+
+  .div-titulo-entrada p {
+    position: relative;
+    right:60px;
+    text-align: center;
+  }
+  
+
+  .bg {
+    width:500px;
+    height: auto;
+  }
+
+  .ofertas {
+    position: relative;
+    right:220px;
+  }
+
+
+  .div-ofertas img {
+    position: relative;
+    right:169px;
+  }
+  
+}
+
+/* Fim celulare */
+
+
+
+
+
+

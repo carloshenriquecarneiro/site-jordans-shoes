@@ -343,5 +343,12 @@ input[type="text"]::placeholder {
 }
 
 
+@media screen and (max-width:365px) {
+  .div-titulo-entrada h2 {
+    margin-right: 42px;
+    font-size: 24px;
+  }
+}
+
 
 

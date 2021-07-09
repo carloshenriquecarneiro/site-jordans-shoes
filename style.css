@@ -274,23 +274,21 @@ input[type="text"]::placeholder {
   }
 
 
+
+  
   .div-titulo-entrada h2 {
     color: var(--white);
     position: relative;
     right: 23px;
+
   }
 
   .div-titulo-entrada p {
     position: relative;
-    right:60px;
+    right:66px;
     text-align: center;
   }
   
-
-  .bg {
-    width:500px;
-    height: auto;
-  }
 
   .ofertas {
     position: relative;
@@ -308,6 +306,41 @@ input[type="text"]::placeholder {
 /* Fim celulare */
 
 
+/* Celulares 490px */
+
+@media  screen and (max-width:490px) {
+  
+  .card {
+    position: relative;
+    right: 140px;
+  }
+
+}
+
+/* Fim */
+
+
+/* Celulares 320px */
+
+@media screen and (max-width:320px) {
+
+  .imgcard2 {
+    position: relative;
+    right:70px;
+  }
+  
+}
+
+
+
+@media screen and (max-width:375px) {
+
+  .imgcard2 {
+    position: relative;
+    right: 48px;
+  }
+  
+}
 
 
 

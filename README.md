@@ -1,9 +1,5 @@
 # Rick Sneakers
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
-
-<img src="" alt="exemplo imagem">
-
 > Site estático para empresa Rick Sneakers, loja virtual de tênis
 
 
@@ -12,6 +8,12 @@
 - HTML
 - CSS
 - GIT
+
+
+## Veja a demo do projeto clicando no link abaixo: 
+<a href="https://carloshenriquecarneiro.github.io/site-jordans-shoes/">Demo</a>
+##
+
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
